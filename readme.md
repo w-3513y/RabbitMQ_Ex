@@ -1,0 +1,1 @@
+projeto para praticar rabbitMQ utilizando dois projetos onde 1 será o producer e outro o consumer
