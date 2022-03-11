@@ -24,10 +24,15 @@ namespace Consumer
                 {
                     try
                     {
+
+//recebe safx no body                        
                         var body = ea.Body.ToArray();
                         var message = Encoding.UTF8.GetString(body);
                         Console.WriteLine(" [x] Received {0}", message);
                         //channel.BasicAck(ea.DeliveryTag, multiple: false);
+//insere as tabelas temporárias
+//dou um retorno pro rabbit mq dizendo que os dados estão nas temporárias
+                    
 
                     }
                     catch (Exception e)
